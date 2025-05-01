@@ -174,7 +174,7 @@ install_python
 # Core Applications Installation: Install essential applications using Homebrew.
 install_core_apps() {
   echo "[$(date)] Installing core applications..."
-  brew install --cask --appdir="/Applications" alfred &
+  brew install --cask --appdir="/Applications" raycast &
   brew install --cask --appdir="/Applications" visual-studio-code &
   brew install --cask --appdir="/Applications" slack &
   brew install --cask --appdir="/Applications" 1password &
