@@ -118,7 +118,6 @@ install_terminal_tools() {
   echo '# Disabling compfix to prevent the "insecure directories" warning when starting zsh' >> ~/.zshrc
   cat << 'EOF' >> ~/.zshrc
 
-# Add my custom functions and settings here.
 preexec() {
   timer=$(gdate +%s.%N)
 }
